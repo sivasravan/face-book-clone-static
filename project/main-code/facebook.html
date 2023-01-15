@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./hello.css">
+</head>
+<body>
+    <div class="main-page">
+        <div class="sub-heading">
+            <h1 class="logo-container">facebook</h1>
+            <p class="paragraph">Facebook helps you connect and share with the people in your life.</p>
+        </div>
+        <div class="sub-main-loginpage">
+        <div class="login-page">
+            <input type="text" id="email" placeholder="Email Address or Phone Number" class="input-email"/>
+            <div class="main-sub">
+                <input onfocus="myFunction3()" type="password" id="pass" placeholder="Password" class="input-password" />
+                <button class="para para1" id="para5" onclick="myFunction5()"><img class="image" src="../download (1).png"/></button>
+            </div>
+            <p id="para"></p>
+            <a onclick="main1()" id="login"><button class="login-button">Log in</button></a>
+            <a class="forget-link">Forgotten password</a>
+            <div class="line"></div>
+            <a href="createpage.html"><button class="create-button">Create New Account</button></a>
+        </div>
+        <p>Create a Page for a celebrity, brand or business.</p>
+        </div>
+    </div>
+    <script>
+        function main1(){
+            let a=document.getElementById("email").value
+            let b=document.getElementById("pass").value
+            let p=document.getElementById("para")
+            var l=document.getElementById("login")
+           if (a!=="" && b!=="")
+           {
+            p.style.color="green"
+            p.textContent="sucessfully login"
+            p.style.fontSize="14x";
+            p.style.margin="4px"
+            p.style.fontFamily="sans-serif"
+           }else{
+            setTimeout(function(){
+                l.setAttribute("href","facebook.html")
+                console.log("hello")
+            },1000);
+            p.style.color="red"
+            p.textContent="The email address or mobile should't not be empty"
+            p.style.fontSize="10x";
+            p.style.margin="2px"
+            p.style.fontFamily="sans-serif"
+            p.style.width="360px";
+           }
+        }
+        function myFunction3(){
+            let magic=document.getElementById("para5")
+            magic.style.display="block";
+        }
+        function myFunction4(){
+            let magic=document.getElementById("para5")
+            magic.style.display="none";
+        }
+        function myFunction5(){
+            let magic=document.getElementById("pass")
+            if(magic.getAttribute("type")==="password"){
+                magic.setAttribute("type","text")
+            }else{
+                magic.setAttribute("type","password")
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+body {
+    margin: 0px;
+  }
+.logo-container{
+    
+    font-size: 50px;
+    color: #1877f2;
+    font-family:sans-serif;
+    font-weight: bold;
+    margin: 0px;
+}
+.login-button{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    width: 359px;
+    color: #fff;
+    height: 48px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 18px;
+  }
+  .create-button{
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #42b72a;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  .forget-link{
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 22px;
+    font-family: sans-serif;
+  }
+  .input-email{
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    background: #f0f2f5;
+   
+    border-radius: 6px ;
+  }
+  .input-password{
+    background: #f0f2f5;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    
+    margin: 12px 12px;
+    border-radius: 6px; 
+
+  }
+  .login-page{
+    text-align: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 10px 0 28px 0;
+    width: 396px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .line{
+    border-bottom: 1px solid #dadde1;
+    margin-bottom: 26px;
+    width: 359px;
+  }
+  .paragraph{
+    font-size: 24px;
+    font-family: sans-serif;
+    width: auto;
+  }
+  .main-page{
+    background: #f0f2f5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sub-heading{
+    max-width:450px;
+    
+  }
+  .sub-main-loginpage{
+    display: flex;
+    flex-direction: column;
+  }
+  .main2{
+    padding-left: 13px;
+  }
+  #email:hover, #pass:hover{
+      border-color: #1877f2;
+  }
+  #email:focus, #pass:focus{
+    outline: none !important;
+    border-color:#1877f2;
+  }
+  #para{
+    margin: 0px;
+  }
+  .para1{
+    color: #606770;
+    font-family:sans-serif;
+    font-size: 15px;
+    position:absolute;
+    top: 22px;
+    right: 28px;
+    font-size: 12px;
+    border: none;
+  }
+  .main-sub{
+    position: relative;
+  }
+  #para5{
+    display: none;
+  }
+  .image{
+    height: 25px;
+    width: 25x;
+    border-radius: 20px;
+    background: #f0f2f5;
+  }
